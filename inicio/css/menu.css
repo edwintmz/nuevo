@@ -1,0 +1,89 @@
+body{
+    margin:0px;
+    background-image: url("Goku_Niño.jpg");
+}
+
+.barra {
+    font-family: 'Lato', sans-serif;
+    width:10%;
+    height:9%;
+    position:fixed;
+    transition: .4s all ;
+    z-index: 1;  
+}
+
+.barra ul{
+    padding:0px;
+    text-align: center;
+}
+
+.barra  li{
+    transition:all .3s;
+    list-style: none; 
+}
+
+.barra a{
+    text-decoration: none;
+    font-weight: normal;
+    transition: .6s all ;
+    font-size: 0px;
+    padding:0px;
+}
+
+.barra  h2{
+    text-align: center;
+    color: black;
+    padding:0px;
+    padding-bottom:0px;
+    font-size:0px;   
+}
+
+.barra img{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.barra:hover{
+    width: 70%;
+    height: 100vh;
+    background: rgba(102, 223, 229, 0.5);
+}
+
+.barra:hover h2{
+    padding:10px;
+    font-size: 25px;
+}
+
+.barra:hover a{ 
+    font-size:20px ;
+    color: black;
+    display: block;
+    padding:20px;
+    text-align: left;
+}
+
+.barra:hover img{
+    height:0px;
+}
+
+
+.barra:hover li{
+    border-top: 1px solid #fff;
+    width:100%;
+}
+
+.barra:hover ul:last-of-type{
+    border-bottom: 1px solid #fff;
+}
+
+.barra:hover a:hover{ 
+    font-size: 35px;
+    padding: 20px 0px; 
+    background: rgba(102, 223, 229, 0.6);  
+}
+
+@media (min-width: 768px){
+    .barra:hover{
+    width: 45%;
+    }
+}
