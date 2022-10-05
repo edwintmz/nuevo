@@ -1,0 +1,41 @@
+#cancha .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#cancha article {
+    margin: 15px;
+}
+
+#cancha img{
+    width: 100%;
+    max-width: 400px;
+}
+
+#cancha article div{
+    width: 80%;
+    max-width: 400px;
+}
+
+#cancha article div .mar{
+    margin: 20px;
+}
+
+#servicio .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#servicio article {
+    margin: 15px;
+}
+
+#servicio img{
+    width: 100%;
+    max-width: 270px;
+    height: 85%;
+}
+
+

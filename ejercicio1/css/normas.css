@@ -1,0 +1,19 @@
+.cuerpo{
+	margin-top: 55px;
+	font-size: 13px;
+	text-align: justify;
+    color:blueviolet;
+}
+
+.lista{
+	margin: 30px;
+	text-decoration: none;
+}
+
+/* esta parte es para uso responsivo*/
+
+@media (min-width:850px) {
+    .cuerpo {
+        font-size: 17px;
+    }
+}

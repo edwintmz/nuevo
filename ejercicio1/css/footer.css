@@ -1,0 +1,34 @@
+
+footer .contenedor {
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	padding-bottom: 25px;
+	color: blueviolet;
+}
+
+.copy {
+	font-size: 20px;
+}
+
+.sociales {
+	width: 100%;
+	text-align: center;
+	font-size: 28px;
+}
+
+.sociales a {
+	color: #333;
+	text-decoration: none;
+}
+
+/*para uso responsivo*/
+@media (min-width:768px) {
+	.sociales {
+		width: auto;
+	}
+	
+	footer .contenedor {
+		justify-content: space-between;
+	}
+}
